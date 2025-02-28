@@ -7,17 +7,16 @@
  * in the COPYING file in the root directory of this source tree).
  * You may select, at your option, one of the above-listed licenses.
  */
+/* ======   Dependency   ======*/
+#include <limits.h>   /* INT_MAX */
+#include <stddef.h>   /* size_t */
+
 #if defined (__cplusplus)
 extern "C" {
 #endif
 
 #ifndef ZSTD_H_235446
 #define ZSTD_H_235446
-
-/* ======   Dependency   ======*/
-#include <limits.h>   /* INT_MAX */
-#include <stddef.h>   /* size_t */
-
 
 /* =====   ZSTDLIB_API : control library symbols visibility   ===== */
 #ifndef ZSTDLIB_VISIBLE
